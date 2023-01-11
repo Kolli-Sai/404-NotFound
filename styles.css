@@ -105,7 +105,7 @@ body {
   color: #bdbdbd;
 }
 
-@media only screen and (max-width: 375px) and (max-height: 949px) {
+@media only screen and (max-width: 375px) or (max-height: 949px) {
   .not-found-text {
     position: absolute;
     left: 24px;
