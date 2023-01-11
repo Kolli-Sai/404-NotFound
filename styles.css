@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 1080px;
+  background-color: #fff;
+  position: relative;
+}
+
+.not-found-text {
+  position: absolute;
+  top: 40px;
+  left: 77px;
+  font-family: "Inconsolata";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+.scare-crow {
+  width: 539.22px;
+  height: 447.43px;
+  position: absolute;
+  top: 265px;
+  left: 77px;
+}
+
+.bold-text {
+  width: 586px;
+  height: 190px;
+  position: absolute;
+  top: 265px;
+  left: 735px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 94.78px;
+  line-height: 100%;
+  letter-spacing: -3.5%;
+  font-family: "Space Mono", "sans-serif";
+}
+
+.description {
+  width: 381px;
+  height: 108px;
+  position: absolute;
+  top: 491px;
+  left: 736px;
+  font-family: "Space Mono", "sans-serif";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  /* text-align: left; */
+}
+
+.button button {
+  position: absolute;
+  left: 783px;
+  top: 687px;
+
+  border-radius: nullpx;
+  font-family: "Space Mono", "sans-serif";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  background-color: #333;
+  padding: 24px 43px;
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  top: 1039px;
+  left: 577px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bdbdbd;
+}
